@@ -31,8 +31,8 @@ except ImportError:
     print("python-dotenv not installed, .env will not load.")
 
 # --- Load config from .env ---
-BOT_TOKEN = os.getenv("TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+BOT_TOKEN = os.getenv("7854635107:AAGs4tN2SleN6aj1x4MCBdLh9JUx3c7hIzU")
+ADMIN_ID = int(os.getenv("8260945171", "0"))
 ALLOWED_CHAT_ID = int(os.getenv("ALLOWED_CHAT_ID", "0"))
 
 BRAINTREE_MERCHANT_ID = os.getenv("BRAINTREE_MERCHANT_ID")
